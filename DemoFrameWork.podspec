@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DemoFrameWork/DemoFrameWork/files/*'
+  s.source_files = 'DemoFrameWork/DemoFrameWork/**/*'
   #s.resource_bundles = {
   # 'JNPlayerKit' => ['JNPlayerKit/JNPlayerKit/JNPlayerKit.xcassets']
   # }
