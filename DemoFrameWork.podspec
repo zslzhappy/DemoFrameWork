@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DemoFrameWork"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Video Player Using Swift, based on AVPlayer"
 
   s.description      = <<-DESC
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JNPlayerKit/JNPlayerKit/*.swift'
-  s.resource_bundles = {
-    'JNPlayerKit' => ['JNPlayerKit/JNPlayerKit/JNPlayerKit.xcassets']
-  }
+  s.source_files = 'DemoFrameWork/DemoFrameWork/*.*'
+  #s.resource_bundles = {
+  # 'JNPlayerKit' => ['JNPlayerKit/JNPlayerKit/JNPlayerKit.xcassets']
+  # }
 
   s.frameworks = 'UIKit', 'AVFoundation'
 end
